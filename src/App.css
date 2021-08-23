@@ -1,0 +1,103 @@
+html {
+  background-color: #eee;
+}
+
+h1,h2,h3,p {
+  font-family: 'nunito';
+}
+
+.cities {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 1rem
+}
+
+.place {
+  background-color: #eee;
+  width: 18vw;
+  min-width: 20rem;
+  margin: 2rem .5rem;
+  border-radius: 1rem;
+  height: 25vw;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 20px 53px, rgba(0, 0, 0, 0.04) 0px 4px 15.9779px, rgba(0, 0, 0, 0.024) 0px 2px 6.63642px, rgba(0, 0, 0, 0.01) 0px 0px 2.40026px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: box-shadow .2s ease;
+}
+
+.place:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 20px 53px, rgba(0, 0, 0, 0.15) 0px 4px 15.9779px, rgba(0, 0, 0, 0.15) 0px 2px 6.63642px, rgba(0, 0, 0, 0.15) 0px 0px 2.40026px;
+}
+
+.placeTitle {
+  background-color: #fff;
+  padding: 1rem .5rem;
+  margin-bottom: -1rem;
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  font-size: 1.5rem;
+  min-width: 15rem;
+}
+
+.placeInfo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.excerptTitle {
+  font-weight: 700;
+  font-size: 4rem;
+  background-color: #000;
+  padding: 1rem;
+  color: #fff;
+}
+
+.excerpt {
+  overflow: hidden;
+  max-width: 70ch;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 20px 53px, rgba(0, 0, 0, 0.04) 0px 4px 15.9779px, rgba(0, 0, 0, 0.024) 0px 2px 6.63642px, rgba(0, 0, 0, 0.01) 0px 0px 2.40026px;
+  margin-bottom: 1rem;
+}
+
+.excerptInfo {
+  padding: 1rem;
+}
+
+.weatherTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: #000;
+  padding: 1rem;
+  color: #fff;
+}
+
+.weatherInfo {
+  margin-left: 2rem;
+  font-weight: 700;
+  min-width: 20rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 20px 53px, rgba(0, 0, 0, 0.04) 0px 4px 15.9779px, rgba(0, 0, 0, 0.024) 0px 2px 6.63642px, rgba(0, 0, 0, 0.01) 0px 0px 2.40026px;
+  height: max-content;
+  overflow: hidden;
+}
+
+.temp {
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 1rem 1rem .5rem 1rem;
+}
+
+.desc {
+  font-size: 2rem;
+  padding: 0 1rem 1rem 1rem;
+}
