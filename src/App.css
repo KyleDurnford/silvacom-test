@@ -16,10 +16,11 @@ h1,h2,h3,p {
 .place {
   background-color: #eee;
   width: 18vw;
-  min-width: 20rem;
+  min-width: 15rem;
   margin: 2rem .5rem;
   border-radius: 1rem;
-  height: 25vw;
+  height: 30vw;
+  min-height: 25rem;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 20px 53px, rgba(0, 0, 0, 0.04) 0px 4px 15.9779px, rgba(0, 0, 0, 0.024) 0px 2px 6.63642px, rgba(0, 0, 0, 0.01) 0px 0px 2.40026px;
   overflow: hidden;

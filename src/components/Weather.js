@@ -7,7 +7,7 @@ const Weather = (props) => {
       useEffect(()=>{
         const getWeather = () => {
             if (props.place) {
-            fetch(`http://api.openweathermap.org/data/2.5/weather?q=${props.place}&appid=a7410da00e5141746d511f305afc33ee`)
+            fetch(`https://api.openweathermap.org/data/2.5/weather?q=${props.place}&appid=a7410da00e5141746d511f305afc33ee`)
                 .then(function(response){
                 return response.json();
                 })

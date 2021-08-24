@@ -1,4 +1,4 @@
-//Get the summary paragraph from Wikipedia for the selected city
+//Get the summary paragraph from Wikipedia for the selected city and then display the city info
 
 import React, { useState, useEffect } from "react";
 
